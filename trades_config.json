@@ -1,0 +1,15 @@
+{
+	//系统配置
+	"system" : {
+	
+	},
+	//数据库配置
+	"redis" : {
+		"host"				: "119.29.178.21",
+		"port"				: 6379,
+		"dbIndex"			: 1
+	},
+	"eth_key" : "eth_cny" ,
+	"etc_key" : "etc_cny" ,
+	"ltc_key" : "ltc_cny" 
+}
