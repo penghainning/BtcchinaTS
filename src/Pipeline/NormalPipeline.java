@@ -22,7 +22,7 @@ public class NormalPipeline implements Pipeline {
 		Double last=Double.valueOf(resultItems.get("last"));
 		String content="";
 		String valueKey=resultItems.get("key").toString().split("_")[0];
-		//System.out.println("正在处理..... "+valueKey+" : "+last);
+		System.out.println("正在处理..... "+valueKey+" : "+last);
 		String title=valueKey+"预警提醒";
 		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		for(Record r:records){
